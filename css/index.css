@@ -329,6 +329,12 @@ nav-media-query
   }
 }
 
+@media (max-width: 361px) {
+  .nav-logo-870px {
+    padding-top: 30px;
+  }
+}
+
 /* ===========
 ===========
 H1 typing effect
@@ -406,7 +412,7 @@ strong {
 .intro {
   margin: 0 auto;
   margin-left: -450px;
-  margin-top: 15em;
+  margin-top: 12em;
 }
 
 p {
@@ -482,7 +488,7 @@ Sticky-social-icons
   position: fixed;
 
   font-size: 2rem;
-  bottom: 400px;
+  bottom: 450px;
   left: 45px;
 }
 
@@ -494,7 +500,7 @@ Sticky-social-icons
   background-color: #e9ecef;
   position: inherit;
   left: 25px;
-  bottom: 430px;
+  bottom: 480px;
   border-left: 2px solid black;
 }
 
@@ -533,7 +539,7 @@ sticky socials media Query
   .sticky-social-icons {
     position: relative;
     left: 70px;
-    top: 507px;
+    top: 460px;
     display: flex;
   }
 
@@ -556,28 +562,28 @@ sticky socials media Query
 @media (max-width: 1050px) {
   .sticky-social-icons {
     left: 110px;
-    top: 498px;
+    top: 450px;
   }
 }
 
 @media (max-width: 870px) {
   .sticky-social-icons {
     left: 110px;
-    top: 482px;
+    top: 435px;
   }
 }
 
 @media (max-width: 720px) {
   .sticky-social-icons {
     left: -5px;
-    top: 482px;
+    top: 435px;
   }
 }
 
 @media (max-width: 533px) {
   .sticky-social-icons {
     left: -28px;
-    top: 482px;
+    top: 440px;
   }
 }
 
@@ -1533,19 +1539,14 @@ Section-three-Grid
 ===========
 =========== */
 
-.strice-client-video {
-  width: 85%;
-  margin: 2em;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
-  overflow: hidden;
+.section-1-work {
+  width: 103%;
+  
 }
 
-.mobile-client-video {
-  width: 57%;
-  margin: 10px;
-  margin-top: 25px;
+.section-4-work {
+  width: 101%;
+  
 }
 
 .beauty-shop-client {
@@ -1729,7 +1730,7 @@ Section-four
 
 .section-four {
   background-color: #030303;
-  height: 100vh;
+  height: 130vh;
   color: #f3f2f2;
   display: flex;
   justify-content: space-around;
@@ -1738,7 +1739,7 @@ Section-four
 .contact-page-left,
 .contact-page-right {
   max-width: 600px;
-  margin: 3em auto 0;
+  margin: 3em auto ;
 
   /* background-color: violet; */
 }
