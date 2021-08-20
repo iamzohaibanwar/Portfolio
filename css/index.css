@@ -1545,7 +1545,7 @@ Section-three-Grid
 }
 
 .section-4-work {
-  width: 101%;
+  width: 100%;
   
 }
 
@@ -1685,6 +1685,9 @@ Section-three-Media Queries
   .beauty-shop-client {
     width: 103%;
   }
+
+  
+  
 }
 
 @media (max-width: 720px) {
@@ -1704,10 +1707,8 @@ Section-three-Media Queries
     height: fit-content;
   }
 
-  .strice-client-video {
-    width: 85%;
-    margin: 0.7em;
-  }
+  
+  
 }
 
 @media (max-width: 505px) {
